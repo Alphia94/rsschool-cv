@@ -1,5 +1,4 @@
 # Alphia Khamidullina
-***
 
 ### Contact information
 
@@ -17,34 +16,46 @@ I work as an engineer at Russian Railways. I also want to develop in the field o
 My goal is to gain knowledge in the field of Front-end development, which will be enough for employment in the company.
 
 My strengths:
+
 * perseverance
 * industriousness
 * teamwork skills
 * I can focus on important things
+
 ***
+
 ### Skills
+
 * Git, GitHub
 * VS Code
+
 ***
+
 ### Code Example
+
 ```
 function multiply(a, b) {
   return a * b;
 }
 ```
+
 ***
+
 ### Education
+
 * Irkutsk State University of Railways, specialty engineer of railways, economist
 * RS Schools JavaScript/Front-end. Stage 0 (in progress)
   
 ***
 
 ### Work experience
+
 * engineer of the Russian Railways technical management center
 * real estate sales manager
 
 ***
 
 ### Languages
+
 * Russian - native
 * English - A2 (I use language learning apps, read simple books)
