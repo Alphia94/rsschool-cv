@@ -22,6 +22,11 @@ My strengths:
 * VS Code
 ***
 ### Code Example
+```
+function multiply(a, b) {
+  return a * b;
+}
+```
 ***
 ### Education
 * Irkutsk State University of Railways, specialty engineer of railways, economist
