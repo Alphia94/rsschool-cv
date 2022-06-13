@@ -1,20 +1,125 @@
 body {
-font-family: 'Roboto Condensed', sans-serif;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-}
-* {
-    box-sizing: border-box;
-  }
-  
-  .nav-list {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 100%;
+    }
 
-  .container {
-    max-width: 1440px;
-    margin: 0 auto;
-  }
+    * {
+        box-sizing: border-box;
+      }
+
+      .container {
+        max-width: 1440px;
+        margin: 0 auto;
+      }
+    
+      .footer-content-right {
+        padding-right:40px;
+        margin-top:20px;
+        float:right;
+      }
+
+      .icon-style {
+        height:25px;
+        margin-left:10px; 
+        margin-top:5px;
+      }  
+
+      .icon-style:hover {
+        background-color:rgb(206, 194, 219);
+        padding:5px;
+      }
+
+      .nav-list {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center; 
+      }
+
+      .nav-list {
+        list-style: none;
+      }
+
+      .nav-link {
+        padding: 0 20px;
+        line-height: 50px;
+        text-decoration: none;
+      }
+
+      .nav-link {
+        transition: .3s;
+      }
+
+      html {
+        scroll-behavior: smooth; 
+      }
+
+      a {
+        position: relative;
+        color: #0a0c0b; /*задаём цвет ссылки*/
+        cursor: pointer;
+        line-height: 1; /*задаём высоту строки*/
+        text-decoration: none; /*убираем подчёркивание*/
+    
+    }
+    a:after {
+        display: block;
+        position: absolute;
+        left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+        width: 0;/*задаём длинну линии до наведения курсора*/
+        height: 3px; /*задаём ширину линии*/
+        background-color: #d8a7d0; /*задаём цвет линии*/
+        content: "";
+        transition: width 0.3s ease-out; /*задаём время анимации*/
+    }
+    
+    a:hover:after,
+    a:focus:after {
+        width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+    }
+
+    .avatar {
+        width: 200px;
+        border-radius: 50%;
+    }
+
+    .main-container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+    .section {
+        width: 50%;
+        
+      }
+
+    @media (max-width: 768px) {
+        .section {
+          width: 100%;
+        }
+      }
+
+    .header {
+        background: #f1d7ed;
+        height:100px;
+        margin-bottom: 10px;
+    }
+
+    #content {
+        background: #f1d7ed;
+        min-height: 1116px;
+        width: 50%;
+        float: left;
+      }
+
+    #sidebar {
+        background: #f1d7ed;
+        min-height: 500px;
+        width: 50%;
+        float: left;
+    }
+
+    

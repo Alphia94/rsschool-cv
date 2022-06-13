@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cv</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="assets/favicon.ico">
+    <link rel="icon" href="assets/i.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header id="header" class="header">
+    <header class="header">
         <div class="container">
             <nav class="nav">
                 <ul class="nav-list">
@@ -27,51 +27,83 @@
             </nav>
         </div>
     </header>
-    <main id="main" class="main">
-        <h1>Khamidullina Alphia</h1>
-            <img src="assets/img/logo.png.jpeg"
-            <p>Contact information</p>
-                <ul>
-                    <li>Phone: +7 908-66-86-344</li>
-                    <li>E-mail: alphia94@icloud.com</li>
-                    <li>GitHub: Alphia94</li>
-                    <li>Location: Russia, Irkutsk</li> 
-                </ul>
-        <h2>About me</h2>
-            <p>I work as an engineer at Russian Railways. I also want to develop in the field of IT technologies, to discover new prospects for professional and career growth.</p>
-            <p>My goal is to gain knowledge in the field of Front-end development, which will be enough for employment in the company.</p>
-            <p>My strengths</p>
-                <ul>
-                    <li>perseverance</li>
-                    <li>industriousness</li>
-                    <li>teamwork skills</li>
-                    <li>I can focus on important things</li>
-                </ul>
-        <h2>Skills</h2>
-            <ul>
-                <li>Git, GitHub</li>
-                <li>VS Code</li>
-            </ul>
-        <h2>Code Example</h2>
-            <img src="assets/img/code.png" alt="my photo">
-        <h2>Education</h2>
-            <ul>
-                <li>Irkutsk State University of Railways, specialty engineer of railways, economist</li>
-                <li>RS Schools JavaScript/Front-end. Stage 0 (in progress)</li>
-            </ul>
-        <h2>Work experience</h2>
-            <ul>
-                <li>engineer of the Russian Railways technical management center</li>
-                <li>real estate sales manager</li>
-            </ul>
-        <h2>Languages</h2>
-            <ul>
-                <li>Russian - native</li>
-                <li>English - A2 (I use language learning apps, read simple books)</li>
-            </ul>
+    <main class="main" class="main-container">
+        <div class="container">
+            <div id="content">
+             
+                    <h1 class="section-title"><strong>Khamidullina Alphia</strong></h1>
+                        <img class="avatar" src="assets/img/logo.png.jpeg" alt="my photo" />
+                </section>
+                <section class="section" id="Contact profile">
+                    <h2 class="section-title">Contact information</h2>
+                        <ul>
+                            <li>Phone: +7 908-66-86-344</li>
+                            <li>E-mail: alphia94@icloud.com</li>
+                            <li>GitHub: Alphia94</li>
+                            <li>Location: Russia, Irkutsk</li> 
+                        </ul>
+               
+            </div>
+            <div id="sidebar">
+            <section class="section" id="About me">
+                <h2 class="section-title">About me</h2>
+                    <p>I work as an engineer at Russian Railways. I also want to develop in the field of IT technologies, to discover new prospects for professional and career growth.</p>
+                    <p>My goal is to gain knowledge in the field of Front-end development, which will be enough for employment in the company.</p>
+                    <p>My strengths</p>
+                    <ul>
+                        <li>perseverance</li>
+                        <li>industriousness</li>
+                        <li>teamwork skills</li>
+                        <li>I can focus on important things</li>
+                    </ul>
+            </section>
+            <section class="section" id="Skills">
+                <h2 class="section-title">Skills</h2>
+                    <ul>
+                        <li>Git, GitHub</li>
+                        <li>VS Code</li>
+                    </ul>
+            </section>
+            <section class="section" id="Code Example">
+                <h2 class="section-title">Code Example</h2>
+                    <pre>
+                        <code>function multiply(a, b) {
+                            return a * b;
+                        }
+                        </code>
+                    </pre>
+            </section>
+            <section class="section" id="Education">
+                <h2 class="section-title">Education</h2>
+                    <ul>
+                        <li>Irkutsk State University of Railways, specialty engineer of railways, economist</li>
+                        <li>RS Schools JavaScript/Front-end. Stage 0 (in progress)</li>
+                    </ul>
+            </section>
+            <section class="section" id="Work experience">
+                <h2 class="section-title">Work experience</h2>
+                    <ul>
+                        <li>engineer of the Russian Railways technical management center</li>
+                        <li>real estate sales manager</li>
+                    </ul>
+            </section>
+            <section class="section" id="Languages">
+                <h2 class="section-title">Languages</h2>
+                    <ul>
+                        <li>Russian - native</li>
+                        <li>English - A2 (I use language learning apps, read simple books)</li>
+                    </ul>
+            </section>
+            </div>
+        </div>
     </main>
-    <footer id="footer" class="footer">
-
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content-right">
+                <a href="https://github.com/Alphia94/" target="_blank"><img src="assets/img/GitHub-Logo.png" class="icon-style" alt="Github icon"></a>
+                <a href="https://rs.school/js-stage0/" target="_blank"><img src="assets/img/rsschool.jpg" class="icon-style" alt="rsschool icon"></a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
